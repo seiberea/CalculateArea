@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ellac\\source\\repos\\CalculateArea\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BAE6049-C864-475B-A2C8-6CA0F95C3769}|CalculateArea\\CalculateArea.csproj|c:\\users\\ellac\\source\\repos\\calculatearea\\calculatearea\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BAE6049-C864-475B-A2C8-6CA0F95C3769}|CalculateArea\\CalculateArea.csproj|solutionrelative:calculatearea\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BAE6049-C864-475B-A2C8-6CA0F95C3769}|CalculateArea\\CalculateArea.csproj|c:\\users\\ellac\\source\\repos\\calculatearea\\calculatearea\\calculatearea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BAE6049-C864-475B-A2C8-6CA0F95C3769}|CalculateArea\\CalculateArea.csproj|solutionrelative:calculatearea\\calculatearea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ellac\\source\\repos\\CalculateArea\\CalculateArea\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "CalculateArea\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\ellac\\source\\repos\\CalculateArea\\CalculateArea\\MauiProgram.cs",
+              "RelativeToolTip": "CalculateArea\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T05:39:30.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculateArea.csproj",
+              "DocumentMoniker": "C:\\Users\\ellac\\source\\repos\\CalculateArea\\CalculateArea\\CalculateArea.csproj",
+              "RelativeDocumentMoniker": "CalculateArea\\CalculateArea.csproj",
+              "ToolTip": "C:\\Users\\ellac\\source\\repos\\CalculateArea\\CalculateArea\\CalculateArea.csproj",
+              "RelativeToolTip": "CalculateArea\\CalculateArea.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-10T05:39:26.787Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

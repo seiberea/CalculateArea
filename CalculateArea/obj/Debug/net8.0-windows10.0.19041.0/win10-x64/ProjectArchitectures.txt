@@ -1,0 +1,1 @@
+C:\Users\ellac\Source\Repos\CalculateArea\CalculateArea\CalculateArea.csproj;x64

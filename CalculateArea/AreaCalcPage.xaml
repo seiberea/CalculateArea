@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculateArea.AreaCalcPage"
+             Title="BMI Calculator">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            
+            <Label Text="Select Your Gender" 
+                   HorizontalOptions="Center" 
+                   FontSize="Large" 
+                   FontAttributes="Bold"/>
+
+            <Grid ColumnDefinitions="*,*" HorizontalOptions="Center">
+                
+                <Frame Padding="10"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       x:Name="FrameMale"
+                       BorderColor="Transparent">
+                    <VerticalStackLayout Spacing="5">
+                        <Image Source="male.png" HeightRequest="100"/>
+                        <Label Text="Male" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapMale_Tapped" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                
+                <Frame Padding="10"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       x:Name="FrameFemale"
+                       BorderColor="Transparent"
+                       Grid.Column="1">
+                    <VerticalStackLayout Spacing="5">
+                        <Image Source="female.png" HeightRequest="100"/>
+                        <Label Text="Female" HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapFemale_Tapped" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+
+            
+            <Label Text="Weight (lbs)" 
+                   HorizontalOptions="Center" 
+                   FontSize="Medium" 
+                   FontAttributes="Bold"/>
+            <Slider ThumbColor="DarkBlue"
+                    x:Name="SliderWeight"
+                    Minimum="0"
+                    Maximum="300"
+                    Value="90"
+                    ValueChanged="SliderWeight_ValueChanged"/>
+            <Label HorizontalOptions="Center"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="{Binding Source={x:Reference SliderWeight}, Path=Value, StringFormat='{0:F0} lbs'}"
+                   x:Name="LblWeight"/>
+
+            
+            <Label Text="Height (inches)" 
+                   HorizontalOptions="Center" 
+                   FontSize="Medium" 
+                   FontAttributes="Bold"/>
+            <Slider ThumbColor="DarkBlue"
+                    x:Name="SliderHeight"
+                    Minimum="0"
+                    Maximum="100"
+                    Value="50"
+                    ValueChanged="SliderHeight_ValueChanged"/>
+            <Label HorizontalOptions="Center"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="{Binding Source={x:Reference SliderHeight}, Path=Value, StringFormat='{0:F0} inches'}"
+                   x:Name="LblHeight"/>
+
+            
+            <Button Text="Calculate BMI"
+                    FontSize="Medium"
+                    Padding="15"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    CornerRadius="20"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    Clicked="BtnCalculateBMI_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
